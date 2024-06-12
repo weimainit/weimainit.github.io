@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta name="viewport" content="with=device-widht, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>frogcaretaker/portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="preloader">
+            <p class="text">/loading</p>
+            <div class="bg">
+                <p class="bg"></p>
+            </div>
+        </div>
+    </div>
+
+    <section class="header">
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">index</a></li>
+                    <div class="here">
+                        <li><a href="portfolio.html">/portfolio</a></li>
+                    </div>
+            </div>
+        </nav>
+    </section>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        });
+    </script>
+
+</body>
+</html>
